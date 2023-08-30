@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-08T16:52:43 IST" name="Default suite" finished-at="2023-08-08T16:52:50 IST" duration-ms="7254">
+    <groups>
+    </groups>
+    <test started-at="2023-08-08T16:52:43 IST" name="Default test" finished-at="2023-08-08T16:52:50 IST" duration-ms="7254">
+      <class name="com.NykaaTestNG.Simple">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:41 IST" name="browserLaunch" finished-at="2023-08-08T16:52:43 IST" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:43 IST" name="launchUrl" finished-at="2023-08-08T16:52:44 IST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method is-config="true" signature="imp_Wait()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:44 IST" name="imp_Wait" finished-at="2023-08-08T16:52:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imp_Wait -->
+        <test-method signature="mom_baby()[pri:1, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:44 IST" name="mom_baby" finished-at="2023-08-08T16:52:44 IST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mom_baby -->
+        <test-method is-config="true" signature="S_Shot()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:44 IST" name="S_Shot" finished-at="2023-08-08T16:52:45 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S_Shot -->
+        <test-method is-config="true" signature="imp_Wait()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:45 IST" name="imp_Wait" finished-at="2023-08-08T16:52:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imp_Wait -->
+        <test-method signature="Baby_powder()[pri:2, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:45 IST" name="Baby_powder" finished-at="2023-08-08T16:52:45 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Baby_powder -->
+        <test-method is-config="true" signature="S_Shot()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:45 IST" name="S_Shot" finished-at="2023-08-08T16:52:45 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S_Shot -->
+        <test-method is-config="true" signature="imp_Wait()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:45 IST" name="imp_Wait" finished-at="2023-08-08T16:52:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imp_Wait -->
+        <test-method signature="Himalaya_Babypowder()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:45 IST" name="Himalaya_Babypowder" finished-at="2023-08-08T16:52:48 IST" depends-on-methods="com.NykaaTestNG.Simple.Baby_powder" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Himalaya_Babypowder -->
+        <test-method is-config="true" signature="S_Shot()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:48 IST" name="S_Shot" finished-at="2023-08-08T16:52:48 IST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S_Shot -->
+        <test-method is-config="true" signature="imp_Wait()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:48 IST" name="imp_Wait" finished-at="2023-08-08T16:52:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imp_Wait -->
+        <test-method signature="cart()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:48 IST" name="cart" finished-at="2023-08-08T16:52:50 IST" depends-on-methods="com.NykaaTestNG.Simple.Himalaya_Babypowder" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method is-config="true" signature="S_Shot()[pri:0, instance:com.NykaaTestNG.Simple@65c7a252]" started-at="2023-08-08T16:52:50 IST" name="S_Shot" finished-at="2023-08-08T16:52:50 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S_Shot -->
+      </class> <!-- com.NykaaTestNG.Simple -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
